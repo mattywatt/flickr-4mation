@@ -1,0 +1,183 @@
+/* line 5, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 26, ../sass/style.scss */
+.photo-thumbnail {
+  position: relative;
+  margin-bottom: 5px;
+}
+@media (min-width: 500px) {
+  /* line 26, ../sass/style.scss */
+  .photo-thumbnail {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+@media (min-width: 1000px) {
+  /* line 26, ../sass/style.scss */
+  .photo-thumbnail {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+/* line 37, ../sass/style.scss */
+.photo-thumbnail img {
+  width: 100%;
+}
+/* line 41, ../sass/style.scss */
+.photo-thumbnail .photo-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  max-height: 30px;
+}
+
+/* line 52, ../sass/style.scss */
+.search-form-container {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+/* line 12, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+.search-form-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 58, ../sass/style.scss */
+.search-form-container .search-form input {
+  float: left;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  width: 180px;
+  font-size: 16px;
+}
+/* line 67, ../sass/style.scss */
+.search-form-container .search-form .search-btn {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px;
+  background-color: #4285f4;
+  border-bottom: 2px solid blue;
+  width: 130px;
+  text-align: center;
+  float: left;
+}
+/* line 21, ../sass/style.scss */
+.search-form-container .search-form .search-btn:hover {
+  cursor: pointer;
+}
+
+/* line 73, ../sass/style.scss */
+.search-results {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+/* line 12, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+.search-results:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 78, ../sass/style.scss */
+.view-photo-container {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+/* line 12, ../../../../../../.rvm/gems/ruby-1.9.3-p551/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+.view-photo-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 82, ../sass/style.scss */
+.view-photo-container h2 {
+  font-weight: bold;
+  padding: 20px 0 0 0;
+}
+/* line 87, ../sass/style.scss */
+.view-photo-container table {
+  margin-top: 20px;
+}
+/* line 89, ../sass/style.scss */
+.view-photo-container table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}

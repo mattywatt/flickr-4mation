@@ -1,0 +1,15 @@
+
+<div class="view-photo-container">
+
+	<img ng-src="{{photo.url}}"/>
+
+	<h2>EXIF Data</h2>
+
+	<table>
+		<tr ng-repeat="e in EXIF">
+			<td>{{e.label}}</td>
+			<td>{{e.value}}</td>
+		</tr>
+	</table>
+
+</div>

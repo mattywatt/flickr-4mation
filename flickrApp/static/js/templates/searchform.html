@@ -1,0 +1,20 @@
+
+<div class="search-form-container">
+	<div class="search-form">
+		<form>
+			<input type="text" name="search" ng-model="searchTerm">
+			<div class="search-btn" ng-click="search()">Search</div>
+		</form>
+	</div>
+</div>
+
+<div class="search-results">
+	<div class="photo-thumbnail" ng-repeat="photo in photos">
+		<a href="/#/photo/{{photo.id}}/{{photo.secret}}">
+			<img ng-src="{{photo.url}}"/>
+			<div class="photo-overlay">
+				{{photo.title}}
+			</div>
+		</a>
+	</div>
+</div>
